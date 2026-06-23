@@ -1,5 +1,5 @@
 import { WebsiteType } from "@/types/website";
-import SiteMenu from "../layout/SiteMenu";
+import SiteMenu from "@/composants/layout/SiteMenu";
 import Title from "./Title";
 import Image from "next/image";
 import Link from "next/link";
