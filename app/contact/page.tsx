@@ -1,3 +1,4 @@
+import ContactForm from "@/composants/forms/contact-form";
 import { getMetadata } from "@/libs/metadata";
 
 type ContactPageType = {};
@@ -7,5 +8,9 @@ export async function generateStaticParams() {
 }
 
 export default function ContactPage({}: ContactPageType) {
-  return <main>ContactPage</main>;
+  return (
+    <main>
+      ContactPage <ContactForm />
+    </main>
+  );
 }
